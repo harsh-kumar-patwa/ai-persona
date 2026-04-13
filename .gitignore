@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment & Secrets
+.env
+.env.local
+backend/.env
+frontend/.env.local
+
+# Build
+.next/
+out/
+dist/
+build/
+
+# Vector store
+chroma_db/
+backend/chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Deploy keys
+deploy/*.pem
+
+# Claude
+.claude/
+CLAUDE.md
+AGENTS.md
